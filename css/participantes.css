@@ -1,0 +1,44 @@
+.nomes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botao {
+  text-decoration: none;
+  border: solid 2px black;
+  padding: 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+
+  z-index: 10;
+  margin-bottom: 5rem;
+  transition: 1s;
+  width: 50%;
+}
+
+.botao:hover {
+  color: rgb(5, 250, 5);
+  
+  transition: 1s;
+  font-size: 30px;
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

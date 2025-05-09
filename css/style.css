@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+body {
+  /* background: #a7a7a799; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  background: green;
+
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 68px;
+  
+
+  background: rgb(1, 92, 1);
+}
+
+header .container-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*   justify-content: space-between; */
+
+  width: 100%;
+  height: 100%;
+
+  padding: 0 2em;
+}
+
+header .container-header nav {
+  display: flex;
+  list-style-type: none;
+}
+
+header .container-header h2 {
+  color: #fff;
+}
+
+header .container-header nav li a {
+  color: #fff;
+  font-weight: 400;
+  color: #999;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+header .container-header nav li a.active {
+  color: #fff;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+header .container-header .search-container input {
+  background: green;
+  border: 0;
+  padding: 7px 10px;
+  border-radius: 7px;
+  width: 200px;
+  outline: 0;
+  color: #fff;
+}
+
+header .container-header .search-container input::placeholder {
+  color: #999;
+}
+
+header .container-header .search-container {
+  display: flex;
+}
+
+header .container-header .search-container button {
+  background: #597df2;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: 0;
+}
+
+header .container-header .mobile-menu {
+  display: none;
+}
+
+header .container-header .mobile-menu img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+}
+.alinha {
+  text-align: justify;
+}
+
+h2, h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  color: black;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 200px; */
+}
+
+img {
+  width: 70%;
+  padding: 5rem;
+  padding-top: 0;
+}
